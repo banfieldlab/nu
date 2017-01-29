@@ -28,7 +28,7 @@ describe 'Nu::Parser::Blast parsing a oof report' do
       expect(@sbjct.length).to eq(729)
     end
 
-    it 'should have a non-empty array of Hsps'do
+    it 'should have a non-empty array of Hsps' do
       expect(@sbjct.hsps.length).to be > 0
     end
 
@@ -38,7 +38,7 @@ describe 'Nu::Parser::Blast parsing a oof report' do
       end
 
       it 'should contain one frame-shift characters in the query sequence' do
-        expect(@hsp.query_sequence.split(/\//).length).to be(2)
+        expect(@hsp.query_sequence.split(%r{\/}).length).to be(2)
       end
 
       it 'should respond to query_frameshifts and return a hash with the correct key/value pair' do

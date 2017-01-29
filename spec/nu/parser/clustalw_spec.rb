@@ -36,7 +36,7 @@ describe Nu::Parser::ClustalW do
 
     it 'can iterate by column' do
       count = 0
-      @a.each_position do |pos|
+      @a.each_position do
         count += 1
       end
       expect(count).to eq(@a.length)
@@ -45,18 +45,18 @@ describe Nu::Parser::ClustalW do
 
     it 'can iterate of a range of columns' do
       count = 0
-      @a.each_position(10..20) do |pos|
+      @a.each_position(10..20) do
         count += 1
       end
       r = []
-      (10..20).each {|x| r << x }
+      (10..20).each { |x| r << x }
       expect(count).to eq(r.length)
     end
 
     it 'can fetch a single position in in the alignment' do
       m = nil
       @a.each_position(3) do |pos|
-        m = pos 
+        m = pos
       end
       expect(m).to be_a(Array)
       expect(m[0]).to eq('K')

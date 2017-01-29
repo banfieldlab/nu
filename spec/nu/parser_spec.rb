@@ -17,6 +17,6 @@ describe Nu::Parser do
   end
 
   it 'can strip quotes' do
-    expect(@dummy_class.strip_quotes("\"ABC\"")).to eq("ABC")
+    expect(@dummy_class.strip_quotes('"ABC"')).to eq('ABC')
   end
 end

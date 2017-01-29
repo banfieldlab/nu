@@ -1,3 +1,4 @@
+inherit_from: .rubocop_todo.yml
 AllCops:
   Include:
     - 'Gemfile'
@@ -69,11 +70,11 @@ EmptyLinesAroundAccessModifier:
 
 # Align ends correctly
 EndAlignment:
-  AlignWith: variable
+  EnforcedStyleAlignWith: variable
 
 # Indentation of when/else
 CaseIndentation:
-  IndentWhenRelativeTo: end
+  EnforcedStyle: end
   IndentOneStep: false
 
 Lambda:
@@ -82,5 +83,8 @@ Lambda:
 RaiseArgs:
   EnforcedStyle: compact
 
-TrailingComma:
+TrailingCommaInLiteral:
+  Enabled: false
+
+TrailingCommaInArguments:
   Enabled: false

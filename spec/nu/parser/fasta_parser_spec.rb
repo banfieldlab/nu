@@ -45,7 +45,7 @@ describe 'Nu::Parser::Fasta with a fasta quality file' do
       temp = str.split(/\n/)
       temp.shift # drop header line
 
-      temp.each_with_index do |qline,i|
+      temp.each do |qline|
         expect(qline.split(/\s+/).length).to eq(17)
       end
     end
