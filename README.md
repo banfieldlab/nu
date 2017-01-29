@@ -1,6 +1,6 @@
-# Nubio2
-
-TODO: Write a gem description
+<<<<<<< HEAD
+# nu
+New NuBio, but faster, smaller, and less dependent
 
 ## Installation
 
