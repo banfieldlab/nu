@@ -1,0 +1,622 @@
+BLASTX 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= test
+         (285 letters)
+
+Database: NCBI Protein Reference Sequences 
+           16,993,818 sequences; 5,831,878,627 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+ref|YP_004527970.1| putative septation protein SpoVG [Treponema ...   138   1e-41
+ref|YP_004366013.1| septation protein spoVG [Treponema succinifa...   137   3e-41
+ref|ZP_10009310.1| hypothetical protein MSI_08380 [Treponema sp....   135   2e-40
+ref|YP_004697453.1| septation protein spoVG [Spirochaeta caldari...   135   2e-40
+ref|YP_004531742.1| putative septation protein SpoVG [Treponema ...   134   7e-40
+ref|YP_004440324.1| septation protein spoVG [Treponema brennabor...   130   1e-38
+ref|YP_005475639.1| hypothetical protein [Spirochaeta africana D...   126   9e-37
+ref|YP_003803533.1| SpoVG family protein [Spirochaeta smaragdina...   126   1e-36
+ref|YP_006045055.1| septation protein spoVG [Spirochaeta thermop...   125   2e-36
+ref|YP_003874257.1| septation protein spoVG [Spirochaeta thermop...   125   2e-36
+
+>ref|YP_004527970.1| putative septation protein SpoVG [Treponema azotonutricium ZAS-9]
+          Length = 93
+
+ Score =  138 bits (348), Expect = 1e-41
+ Identities = 65/85 (76%), Positives = 74/85 (87%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M+ITDIR+RRV GEGKL+AYVTVTFD+CFVVHNVK+IEGKTGVFIAMPSRKT+ GEYKDV
+Sbjct: 1   MEITDIRVRRVAGEGKLRAYVTVTFDDCFVVHNVKIIEGKTGVFIAMPSRKTRAGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGHG 255
+           AHPI P FR+ LQ  I+  Y+ G G
+Sbjct: 61  AHPIHPEFRSELQKKILDQYDMGAG 85
+
+
+>ref|YP_004366013.1| septation protein spoVG [Treponema succinifaciens DSM 2489]
+          Length = 92
+
+ Score =  137 bits (345), Expect = 3e-41
+ Identities = 64/91 (70%), Positives = 73/91 (80%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M ITD+RIR+V GEGKLKAYVTVTFD+CFVVHNVK+IEG +G+FIAMPSRKT  GEYKDV
+Sbjct: 1   MQITDVRIRKVEGEGKLKAYVTVTFDDCFVVHNVKIIEGSSGLFIAMPSRKTANGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGHGSAGSPE 273
+           AHPI P FR  +Q  I+ +Y  GH   GS E
+Sbjct: 61  AHPISPDFRNAIQSKILEEYNAGHIETGSSE 91
+
+
+>ref|ZP_10009310.1| hypothetical protein MSI_08380 [Treponema sp. JC4]
+          Length = 92
+
+ Score =  135 bits (339), Expect = 2e-40
+ Identities = 62/88 (70%), Positives = 72/88 (81%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M IT++RIR+V  EGKL+AYVTVTFD+CFVVHNVK+IEGKTG+FIAMPSRKT  GEYKDV
+Sbjct: 1   MQITELRIRKVEDEGKLRAYVTVTFDDCFVVHNVKIIEGKTGLFIAMPSRKTANGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGHGSAG 264
+           AHPI P FR  LQD I+ ++  GH   G
+Sbjct: 61  AHPISPEFRNELQDKILAEFNAGHVETG 88
+
+
+>ref|YP_004697453.1| septation protein spoVG [Spirochaeta caldaria DSM 7334]
+          Length = 93
+
+ Score =  135 bits (339), Expect = 2e-40
+ Identities = 64/84 (76%), Positives = 74/84 (88%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M+ITDIRIR+V GEGKLKAYVTVTFD+CFVVHNVK+IEGK+GVFIAMPSRKT++GEYKDV
+Sbjct: 1   MEITDIRIRKVAGEGKLKAYVTVTFDDCFVVHNVKIIEGKSGVFIAMPSRKTRSGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGH 252
+           AHPI P FR  LQ  I+  Y+ G+
+Sbjct: 61  AHPIHPEFRAELQKRILDVYDSGN 84
+
+
+>ref|YP_004531742.1| putative septation protein SpoVG [Treponema primitia ZAS-2]
+ ref|ZP_09718889.1| regulatory protein SpoVG [Treponema primitia ZAS-1]
+          Length = 93
+
+ Score =  134 bits (336), Expect = 7e-40
+ Identities = 63/84 (75%), Positives = 73/84 (86%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M+ITDIR+R+V GEGKLKAYVTVTFD+CFVVHNVK+IEGK+GVFIAMPSRKT+ GEYKDV
+Sbjct: 1   MEITDIRVRKVAGEGKLKAYVTVTFDDCFVVHNVKIIEGKSGVFIAMPSRKTRVGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGH 252
+           AHPI P FR  LQ  I+  Y+ G+
+Sbjct: 61  AHPIHPEFRAELQKKILDRYDFGN 84
+
+
+>ref|YP_004440324.1| septation protein spoVG [Treponema brennaborense DSM 12168]
+          Length = 96
+
+ Score =  130 bits (328), Expect = 1e-38
+ Identities = 59/84 (70%), Positives = 71/84 (84%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M IT+IRIR++  +GKLKAYVTVTFD+CFVVHNVK+I+GKTG+FIAMPSRKT TGEY D+
+Sbjct: 1   MQITEIRIRKIAVDGKLKAYVTVTFDDCFVVHNVKIIDGKTGLFIAMPSRKTATGEYMDI 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGH 252
+           AHPI P FR  LQ+ I+ +Y  GH
+Sbjct: 61  AHPISPEFRAELQERILAEYRAGH 84
+
+
+>ref|YP_005475639.1| hypothetical protein [Spirochaeta africana DSM 8902]
+          Length = 99
+
+ Score =  126 bits (316), Expect = 9e-37
+ Identities = 63/91 (69%), Positives = 72/91 (79%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M+ITDIRIR V+  GKLKAYVTVTFD+ FVVHN+K+IEGKTGVFIAMPSRKTK+GE+KDV
+Sbjct: 1   MEITDIRIRNVSSGGKLKAYVTVTFDDSFVVHNLKIIEGKTGVFIAMPSRKTKSGEFKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYERGHGSAGSPE 273
+           AHPI   FR  LQD I+  YE    + G  E
+Sbjct: 61  AHPIHADFRASLQDQILKAYEEHLENGGDEE 91
+
+
+>ref|YP_003803533.1| SpoVG family protein [Spirochaeta smaragdinae DSM 11293]
+          Length = 102
+
+ Score =  126 bits (316), Expect = 1e-36
+ Identities = 58/82 (70%), Positives = 70/82 (85%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M+ITDIRIR++  + KLKAYVT+TFD+CFVVHNVK+I+GK G FIAMPSRKT++GEYKDV
+Sbjct: 1   MEITDIRIRKLGSDSKLKAYVTITFDDCFVVHNVKIIDGKNGAFIAMPSRKTRSGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYER 246
+           AHPI   FR RLQ  I+ +YER
+Sbjct: 61  AHPINSDFRGRLQQQILDEYER 82
+
+
+>ref|YP_006045055.1| septation protein spoVG [Spirochaeta thermophila DSM 6578]
+          Length = 100
+
+ Score =  125 bits (314), Expect = 2e-36
+ Identities = 59/82 (71%), Positives = 70/82 (85%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M++TDIRI+RV G GKLKAYVTVTFD+CFVVHN+KVIEG+T  FIAMPSR+T+ GEYKDV
+Sbjct: 1   MEVTDIRIKRVEGGGKLKAYVTVTFDDCFVVHNIKVIEGRTATFIAMPSRRTRNGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYER 246
+           AHPI   FR +LQ  I++ YER
+Sbjct: 61  AHPIKADFREKLQADILSMYER 82
+
+
+>ref|YP_003874257.1| septation protein spoVG [Spirochaeta thermophila DSM 6192]
+          Length = 100
+
+ Score =  125 bits (314), Expect = 2e-36
+ Identities = 59/82 (71%), Positives = 70/82 (85%)
+ Frame = +1
+
+Query: 1   MDITDIRIRRVNGEGKLKAYVTVTFDECFVVHNVKVIEGKTGVFIAMPSRKTKTGEYKDV 180
+           M++TDIRI+RV G GKLKAYVTVTFD+CFVVHN+KVIEG+T  FIAMPSR+T+ GEYKDV
+Sbjct: 1   MEVTDIRIKRVEGGGKLKAYVTVTFDDCFVVHNIKVIEGRTATFIAMPSRRTRNGEYKDV 60
+
+Query: 181 AHPICPAFRTRLQDAIVTDYER 246
+           AHPI   FR +LQ  I++ YER
+Sbjct: 61  AHPIKADFREKLQADILSMYER 82
+
+
+BLASTX 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= test2
+         (240 letters)
+
+Database: NCBI Protein Reference Sequences 
+           16,993,818 sequences; 5,831,878,627 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+ref|YP_003805183.1| UvrD/REP helicase [Spirochaeta smaragdinae D...   102   2e-24
+ref|ZP_03706183.1| hypothetical protein CLOSTMETH_00912 [Clostri...    96   2e-22
+ref|YP_004544561.1| UvrD/REP helicase [Desulfotomaculum ruminis ...    96   3e-22
+ref|ZP_07930921.1| DNA and RNA helicase, partial [Anaerostipes s...    95   4e-22
+ref|ZP_02418888.1| hypothetical protein ANACAC_01473 [Anaerostip...    95   6e-22
+ref|ZP_06410194.1| putative DNA helicase II [Clostridium hathewa...    95   9e-22
+ref|ZP_02038565.1| hypothetical protein BACCAP_04200 [Bacteroide...    94   2e-21
+ref|ZP_09549801.1| UvrD/REP helicase [Caldithrix abyssi DSM 13497]     94   2e-21
+ref|ZP_08610258.1| hypothetical protein HMPREF0994_06264 [Lachno...    93   3e-21
+ref|ZP_04857749.1| conserved hypothetical protein [Ruminococcus ...    92   6e-21
+
+>ref|YP_003805183.1| UvrD/REP helicase [Spirochaeta smaragdinae DSM 11293]
+          Length = 1082
+
+ Score =  102 bits (253), Expect = 2e-24
+ Identities = 46/71 (64%), Positives = 55/71 (77%)
+ Frame = +1
+
+Query: 1   MRTYADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHG 180
+           MR   DFHIHS Y+RA S QL PEN+DLW RIKG+ +V TGDFTHP W  +L+EKLEP  
+Sbjct: 1   MRFIGDFHIHSSYSRATSRQLNPENLDLWGRIKGISVVGTGDFTHPGWVAELKEKLEPAE 60
+
+Query: 181 EGLYRLKSEFR 213
+            GL+RLK+E+R
+Sbjct: 61  PGLFRLKNEYR 71
+
+
+>ref|ZP_03706183.1| hypothetical protein CLOSTMETH_00912 [Clostridium methylpentosum
+           DSM 5476]
+          Length = 1075
+
+ Score = 96.3 bits (238), Expect = 2e-22
+ Identities = 42/70 (60%), Positives = 54/70 (77%)
+ Frame = +1
+
+Query: 13  ADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHGEGLY 192
+           AD HIHSKY+RA S   TPE++DLW R KG+GL+ TGDFTHP W ++L++KL P  EGLY
+Sbjct: 4   ADLHIHSKYSRATSRDCTPEHLDLWARRKGIGLLGTGDFTHPAWREELKQKLRPAEEGLY 63
+
+Query: 193 RLKSEFRQKE 222
+            L+ EFR ++
+Sbjct: 64  VLREEFRLED 73
+
+
+>ref|YP_004544561.1| UvrD/REP helicase [Desulfotomaculum ruminis DSM 2154]
+          Length = 1111
+
+ Score = 95.9 bits (237), Expect = 3e-22
+ Identities = 41/70 (58%), Positives = 54/70 (77%)
+ Frame = +1
+
+Query: 13  ADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHGEGLY 192
+           ADFHIHSKY+RA S    PE +++W R KG+ ++ TGDFTHP W ++L+EKL P GEGLY
+Sbjct: 4   ADFHIHSKYSRATSRDCVPEILEMWARRKGINVIGTGDFTHPAWREELKEKLIPSGEGLY 63
+
+Query: 193 RLKSEFRQKE 222
+            LK+ FRQ++
+Sbjct: 64  VLKNNFRQED 73
+
+
+>ref|ZP_07930921.1| DNA and RNA helicase, partial [Anaerostipes sp. 3_2_56FAA]
+          Length = 427
+
+ Score = 95.1 bits (235), Expect = 4e-22
+ Identities = 43/70 (61%), Positives = 53/70 (75%)
+ Frame = +1
+
+Query: 13  ADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHGEGLY 192
+           AD HIHS+Y+RA S +  PE++DLW R KG+ +V TGDFTH  W D+L+EKLEP  EGLY
+Sbjct: 4   ADLHIHSRYSRATSKECDPEHLDLWARKKGIHIVGTGDFTHQAWRDELREKLEPAEEGLY 63
+
+Query: 193 RLKSEFRQKE 222
+            LK EFR K+
+Sbjct: 64  ILKEEFRIKD 73
+
+
+>ref|ZP_02418888.1| hypothetical protein ANACAC_01473 [Anaerostipes caccae DSM 14662]
+          Length = 1032
+
+ Score = 95.1 bits (235), Expect = 6e-22
+ Identities = 43/70 (61%), Positives = 53/70 (75%)
+ Frame = +1
+
+Query: 13  ADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHGEGLY 192
+           AD HIHS+Y+RA S +  PE++DLW R KG+ +V TGDFTH  W D+L+EKLEP  EGLY
+Sbjct: 4   ADLHIHSRYSRATSKECDPEHLDLWARKKGIHIVGTGDFTHQAWRDELREKLEPAEEGLY 63
+
+Query: 193 RLKSEFRQKE 222
+            LK EFR K+
+Sbjct: 64  ILKEEFRIKD 73
+
+
+>ref|ZP_06410194.1| putative DNA helicase II [Clostridium hathewayi DSM 13479]
+          Length = 854
+
+ Score = 94.7 bits (234), Expect = 9e-22
+ Identities = 43/74 (58%), Positives = 53/74 (71%)
+ Frame = +1
+
+Query: 1   MRTYADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHG 180
+           M   AD HIHS+Y+RA S   TPE +DLW R KG+ +V TGDFTHP W  +L+EKLEP  
+Sbjct: 1   MMYIADLHIHSRYSRATSRDCTPEYLDLWARRKGISIVGTGDFTHPAWRKELEEKLEPAE 60
+
+Query: 181 EGLYRLKSEFRQKE 222
+           +GLY LK E+R K+
+Sbjct: 61  DGLYVLKEEYRIKD 74
+
+
+>ref|ZP_02038565.1| hypothetical protein BACCAP_04200 [Bacteroides capillosus ATCC
+           29799]
+          Length = 1053
+
+ Score = 93.6 bits (231), Expect = 2e-21
+ Identities = 44/70 (62%), Positives = 50/70 (71%)
+ Frame = +1
+
+Query: 13  ADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHGEGLY 192
+           AD HIHSKY+RA S Q  PE +DLW R KG+GLV TGDFTHP W  +L +KLE   +GLY
+Sbjct: 3   ADLHIHSKYSRATSAQCVPEYLDLWARRKGIGLVGTGDFTHPAWRAELADKLERDRDGLY 62
+
+Query: 193 RLKSEFRQKE 222
+            LK EFR  E
+Sbjct: 63  VLKEEFRLPE 72
+
+
+>ref|ZP_09549801.1| UvrD/REP helicase [Caldithrix abyssi DSM 13497]
+          Length = 1074
+
+ Score = 93.6 bits (231), Expect = 2e-21
+ Identities = 44/80 (55%), Positives = 54/80 (67%)
+ Frame = +1
+
+Query: 1   MRTYADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHG 180
+           MR  AD HIHS ++ A S  L PE +D W RIKG+ +V TGDFTHP W  +L+EKLEP  
+Sbjct: 1   MRFIADLHIHSHFSVATSKDLIPEKLDYWARIKGITVVGTGDFTHPGWLKELKEKLEPAE 60
+
+Query: 181 EGLYRLKSEFRQKEARFTPV 240
+           +GL++LK E R   A  TPV
+Sbjct: 61  DGLFKLKEELRLPGAPDTPV 80
+
+
+>ref|ZP_08610258.1| hypothetical protein HMPREF0994_06264 [Lachnospiraceae bacterium
+           3_1_57FAA_CT1]
+          Length = 1067
+
+ Score = 93.2 bits (230), Expect = 3e-21
+ Identities = 41/70 (58%), Positives = 52/70 (74%)
+ Frame = +1
+
+Query: 16  DFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHGEGLYR 195
+           D HIHS+Y+RA S   TPE +DLW R KG+ +V TGDFTHP W ++L+EKLEP  +GLY 
+Sbjct: 5   DLHIHSRYSRATSRDCTPEYLDLWARKKGIDIVGTGDFTHPAWREELKEKLEPAEDGLYT 64
+
+Query: 196 LKSEFRQKEA 225
+           LK E+R  +A
+Sbjct: 65  LKDEYRIMDA 74
+
+
+>ref|ZP_04857749.1| conserved hypothetical protein [Ruminococcus sp. 5_1_39B_FAA]
+          Length = 413
+
+ Score = 91.7 bits (226), Expect = 6e-21
+ Identities = 39/79 (49%), Positives = 56/79 (70%)
+ Frame = +1
+
+Query: 1   MRTYADFHIHSKYARACSPQLTPENIDLWCRIKGLGLVATGDFTHPKWFDDLQEKLEPHG 180
+           M+  AD HIHS+++ A S + TPEN+D W R KG+ L+ TGDFTHP W ++L+E+L   G
+Sbjct: 3   MKMIADLHIHSRFSMATSKEGTPENLDFWARKKGISLIGTGDFTHPVWREELKERLVSEG 62
+
+Query: 181 EGLYRLKSEFRQKEARFTP 237
+            GLYRL+  + ++E+R  P
+Sbjct: 63  NGLYRLRDAYVKEESRKFP 81
+
+
+BLASTX 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= test3
+         (387 letters)
+
+Database: NCBI Protein Reference Sequences 
+           16,993,818 sequences; 5,831,878,627 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+ref|ZP_02544218.1| hypothetical protein cdiviTM7_00622 [candidat...    62   1e-10
+ref|ZP_02874557.1| hypothetical protein cdivTM_30113 [candidate ...    60   3e-10
+ref|ZP_02544217.1| hypothetical protein cdiviTM7_00617 [candidat...    60   4e-10
+ref|ZP_02544216.1| hypothetical protein cdiviTM7_00612 [candidat...    59   7e-10
+ref|ZP_02872576.1| hypothetical protein cdivTM_20102 [candidate ...    58   3e-09
+ref|ZP_02544219.1| hypothetical protein cdiviTM7_00627 [candidat...    58   5e-09
+ref|ZP_02544223.1| hypothetical protein cdiviTM7_00647 [candidat...    54   2e-07
+ref|ZP_01810768.1| hypothetical protein TM7_0647 [candidate divi...    52   3e-06
+ref|ZP_01811327.1| hypothetical protein TM7_0583 [candidate divi...    48   3e-05
+ref|ZP_02873191.1| hypothetical protein cdivTM_23214 [candidate ...    44   2e-04
+
+>ref|ZP_02544218.1| hypothetical protein cdiviTM7_00622 [candidate division TM7
+           single-cell isolate TM7c]
+ ref|ZP_02874556.1| hypothetical protein cdivTM_30108 [candidate division TM7
+           single-cell isolate TM7a]
+          Length = 121
+
+ Score = 62.0 bits (149), Expect = 1e-10
+ Identities = 41/125 (32%), Positives = 68/125 (54%), Gaps = 5/125 (4%)
+ Frame = +1
+
+Query: 1   MKKIL-ATIXSAALYGLP----AXVMAQGITDDLSNLGLNXFGNETNLGTNIALIGTIAR 165
+           MKK L A + S  +   P    A V A   ++  S +     GN T+L +       I  
+Sbjct: 1   MKKFLIAALVSLGIVVTPLAMDAPVFANAKSEVTSGVSSVNDGNSTDLPS------FITN 54
+
+Query: 166 IINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAFAIASF 345
+           I+NILL   G +AVI+++ GG +++ ++GD  ++  AK  +   VIGL++++ A+AI +F
+Sbjct: 55  IVNILLFLAGAVAVIVIIIGGIRYVMSSGDAGQVQSAKNTILYAVIGLIVVIMAYAIVNF 114
+
+Query: 346 VVNQL 360
+           VV  +
+Sbjct: 115 VVTNV 119
+
+
+>ref|ZP_02874557.1| hypothetical protein cdivTM_30113 [candidate division TM7
+           single-cell isolate TM7a]
+          Length = 106
+
+ Score = 60.5 bits (145), Expect = 3e-10
+ Identities = 28/69 (40%), Positives = 48/69 (69%)
+ Frame = +1
+
+Query: 154 TIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAFA 333
+           T   +IN+ L  +G++AVI+++  G+K++TA G+ AK+  A+  +   VIGL + L A+A
+Sbjct: 38  TAKNLINLSLWAIGIVAVIMIVISGYKFITANGEAAKVTSARNTLLYSVIGLAVALLAWA 97
+
+Query: 334 IASFVVNQL 360
+           I SF+VN++
+Sbjct: 98  IVSFIVNRI 106
+
+
+>ref|ZP_02544217.1| hypothetical protein cdiviTM7_00617 [candidate division TM7
+           single-cell isolate TM7c]
+          Length = 123
+
+ Score = 60.5 bits (145), Expect = 4e-10
+ Identities = 28/69 (40%), Positives = 48/69 (69%)
+ Frame = +1
+
+Query: 154 TIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAFA 333
+           T   +IN+ L  +G++AVI+++  G+K++TA G+ AK+  A+  +   VIGL + L A+A
+Sbjct: 55  TAKNLINLSLWAIGIVAVIMIVISGYKFITANGEAAKVTSARNTLLYSVIGLAVALLAWA 114
+
+Query: 334 IASFVVNQL 360
+           I SF+VN++
+Sbjct: 115 IVSFIVNRI 123
+
+
+>ref|ZP_02544216.1| hypothetical protein cdiviTM7_00612 [candidate division TM7
+           single-cell isolate TM7c]
+          Length = 101
+
+ Score = 59.3 bits (142), Expect = 7e-10
+ Identities = 32/82 (39%), Positives = 51/82 (62%), Gaps = 2/82 (2%)
+ Frame = +1
+
+Query: 115 NETNL-GTNIALI-GTIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLM 288
+           NE NL GT +    G +  IIN +    G++AV+ ++ GG+ ++T+ GD  K+  AK+ +
+Sbjct: 16  NEVNLKGTQVTSADGALTSIINTVYFVAGIVAVVGIVIGGWLYVTSNGDPGKVSRAKQAV 75
+
+Query: 289 GAGVIGLVIILAAFAIASFVVN 354
+              VIGLVI++ AFAI   ++N
+Sbjct: 76  FYSVIGLVIVMVAFAITQLLIN 97
+
+
+>ref|ZP_02872576.1| hypothetical protein cdivTM_20102 [candidate division TM7
+           single-cell isolate TM7a]
+          Length = 122
+
+ Score = 58.2 bits (139), Expect = 3e-09
+ Identities = 24/69 (34%), Positives = 47/69 (68%)
+ Frame = +1
+
+Query: 151 GTIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAF 330
+           G   ++ ++LL   G +AVI+++ GG +++ ++GD  ++  AK  +   V+GLV+++ A+
+Sbjct: 45  GIFKKVTDVLLFLAGAVAVIVLIIGGIRYVISSGDSGQVQSAKNTILYAVVGLVVVIMAY 104
+
+Query: 331 AIASFVVNQ 357
+           AI +FV+NQ
+Sbjct: 105 AIVNFVINQ 113
+
+
+>ref|ZP_02544219.1| hypothetical protein cdiviTM7_00627 [candidate division TM7
+           single-cell isolate TM7c]
+          Length = 144
+
+ Score = 58.2 bits (139), Expect = 5e-09
+ Identities = 24/69 (34%), Positives = 47/69 (68%)
+ Frame = +1
+
+Query: 151 GTIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAF 330
+           G   ++ ++LL   G +AVI+++ GG +++ ++GD  ++  AK  +   V+GLV+++ A+
+Sbjct: 67  GIFKKVTDVLLFLAGAVAVIVLIIGGIRYVISSGDSGQVQSAKNTILYAVVGLVVVIMAY 126
+
+Query: 331 AIASFVVNQ 357
+           AI +FV+NQ
+Sbjct: 127 AIVNFVINQ 135
+
+
+>ref|ZP_02544223.1| hypothetical protein cdiviTM7_00647 [candidate division TM7
+           single-cell isolate TM7c]
+          Length = 144
+
+ Score = 53.9 bits (128), Expect = 2e-07
+ Identities = 23/83 (27%), Positives = 50/83 (60%), Gaps = 6/83 (7%)
+ Frame = +1
+
+Query: 151 GTIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAF 330
+           G  + I N++L  +G ++V++++ GG +++ + GD   +  AK  +   ++G+++ L A+
+Sbjct: 54  GIFSTITNVMLFIVGGVSVLMIIIGGLRYVLSGGDSGNVSAAKNTILYAIVGIIVSLLAY 113
+
+Query: 331 AIASFVVNQLTD------ATGYN 381
+           A+ SFVV+   +      A+G+N
+Sbjct: 114 AVVSFVVSSFANNSSSGFASGFN 136
+
+
+>ref|ZP_01810768.1| hypothetical protein TM7_0647 [candidate division TM7 genomosp.
+           GTL1]
+          Length = 488
+
+ Score = 52.4 bits (124), Expect = 3e-06
+ Identities = 24/74 (32%), Positives = 44/74 (59%)
+ Frame = +1
+
+Query: 151 GTIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAF 330
+           G    I NILL  +G ++VI+++ GG +++ + GD   +  AK  +   +IG+V+   A+
+Sbjct: 414 GIFQTITNILLFLIGAISVIMLIIGGIRYVLSNGDSNAVVGAKNTILYAIIGIVVAFLAY 473
+
+Query: 331 AIASFVVNQLTDAT 372
+           A  +F++ QL + T
+Sbjct: 474 AAVNFIITQLVENT 487
+
+
+>ref|ZP_01811327.1| hypothetical protein TM7_0583 [candidate division TM7 genomosp.
+           GTL1]
+          Length = 141
+
+ Score = 48.1 bits (113), Expect = 3e-05
+ Identities = 23/74 (31%), Positives = 43/74 (58%)
+ Frame = +1
+
+Query: 133 TNIALIGTIARIINILLGFLGVLAVILVLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLV 312
+           T++ +IG    ++ +LL   G +A    +WGGF++M A G+  KI  AK  +   + G+ 
+Sbjct: 67  TDMWIIGL--NVVEMLLHIAGYVAAGFTVWGGFRYMLANGEPDKISSAKNTVTQALSGVA 124
+
+Query: 313 IILAAFAIASFVVN 354
+           + + A A+ +F+V+
+Sbjct: 125 VSVVAIAVINFIVD 138
+
+
+>ref|ZP_02873191.1| hypothetical protein cdivTM_23214 [candidate division TM7
+           single-cell isolate TM7a]
+          Length = 57
+
+ Score = 44.3 bits (103), Expect = 2e-04
+ Identities = 20/47 (42%), Positives = 32/47 (68%)
+ Frame = +1
+
+Query: 214 VLWGGFKWMTAAGDEAKIGEAKKLMGAGVIGLVIILAAFAIASFVVN 354
+           V+ GG+ ++T+ GD  K+  AK+ +   VIGLVI++ AFAI   ++N
+Sbjct: 4   VVIGGWLYVTSNGDPGKVSRAKQAVFYSVIGLVIVMVAFAITQLLIN 50
+
+
+  Database: NCBI Protein Reference Sequences
+    Posted date:  Jan 27, 2013  8:40 PM
+  Number of letters in database: 5,831,878,627
+  Number of sequences in database:  16,993,818
+  
+Lambda     K      H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16993818
+Number of Hits to DB: 9,419,410,286
+Number of extensions: 210655227
+Number of successful extensions: 500655
+Number of sequences better than 10.0: 970
+Number of HSP's gapped: 500370
+Number of HSP's successfully gapped: 987
+Length of database: 5,831,878,627
+Neighboring words threshold: 12
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 28 (15.4 bits)

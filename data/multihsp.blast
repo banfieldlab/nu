@@ -1,0 +1,331 @@
+BLASTN 2.2.21 [Jun-14-2009] 
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= UBA_LeptoIII_Contig2406.fasta
+         (66,712 letters)
+
+Database: dna.fna 
+           1 sequences; 2190 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Contig17100_1_5 # 5062 # 7251 # 1 # rbs_motif=AGGAG;rbs_spacer=5...    30   0.12 
+
+>Contig17100_1_5 # 5062 # 7251 # 1 # rbs_motif=AGGAG;rbs_spacer=5-10bp
+          Length = 2190
+
+ Score = 30.2 bits (15), Expect = 0.12
+ Identities = 15/15 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 40094 gatcgacggcaagct 40108
+             |||||||||||||||
+Sbjct: 612   gatcgacggcaagct 626
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Plus
+
+                          
+Query: 39322 aaaagctggccaa 39334
+             |||||||||||||
+Sbjct: 911   aaaagctggccaa 923
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Minus
+
+                          
+Query: 16715 gatttcaaccagt 16727
+             |||||||||||||
+Sbjct: 1389  gatttcaaccagt 1377
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Plus
+
+                          
+Query: 64175 gatcgataaagtg 64187
+             |||||||||||||
+Sbjct: 1566  gatcgataaagtg 1578
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Minus
+
+                          
+Query: 40454 tgcgcggcttgcc 40466
+             |||||||||||||
+Sbjct: 1804  tgcgcggcttgcc 1792
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Plus
+
+                          
+Query: 61837 cccggcggaagcc 61849
+             |||||||||||||
+Sbjct: 1950  cccggcggaagcc 1962
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Minus
+
+                          
+Query: 60391 cagggcgccgagg 60403
+             |||||||||||||
+Sbjct: 2088  cagggcgccgagg 2076
+
+
+
+ Score = 26.3 bits (13), Expect = 1.8
+ Identities = 13/13 (100%)
+ Strand = Plus / Minus
+
+                          
+Query: 32743 cggccttggcgcg 32755
+             |||||||||||||
+Sbjct: 2122  cggccttggcgcg 2110
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Minus
+
+                         
+Query: 39659 gctcaggctggt 39670
+             ||||||||||||
+Sbjct: 154   gctcaggctggt 143
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 64436 cattctggcgac 64447
+             ||||||||||||
+Sbjct: 360   cattctggcgac 371
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Minus
+
+                         
+Query: 42511 ttccggcaggcc 42522
+             ||||||||||||
+Sbjct: 417   ttccggcaggcc 406
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Minus
+
+                         
+Query: 41551 tttgccggcggc 41562
+             ||||||||||||
+Sbjct: 513   tttgccggcggc 502
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 53410 cgacggcaagct 53421
+             ||||||||||||
+Sbjct: 615   cgacggcaagct 626
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 15558 cagaccgccggg 15569
+             ||||||||||||
+Sbjct: 724   cagaccgccggg 735
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 14740 agctggccaaga 14751
+             ||||||||||||
+Sbjct: 914   agctggccaaga 925
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 47487 ccggtacaccgc 47498
+             ||||||||||||
+Sbjct: 1360  ccggtacaccgc 1371
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 39742 acaccatcgcca 39753
+             ||||||||||||
+Sbjct: 1415  acaccatcgcca 1426
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 13350 agccgcatgggc 13361
+             ||||||||||||
+Sbjct: 1444  agccgcatgggc 1455
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Minus
+
+                         
+Query: 11682 ttcaccacgatc 11693
+             ||||||||||||
+Sbjct: 1475  ttcaccacgatc 1464
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Minus
+
+                         
+Query: 25583 gccagccgaact 25594
+             ||||||||||||
+Sbjct: 1600  gccagccgaact 1589
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 18381 tgcgctgctggc 18392
+             ||||||||||||
+Sbjct: 1827  tgcgctgctggc 1838
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 41133 gcgctgctggcc 41144
+             ||||||||||||
+Sbjct: 1828  gcgctgctggcc 1839
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Plus
+
+                         
+Query: 29359 atgatcccgatg 29370
+             ||||||||||||
+Sbjct: 1894  atgatcccgatg 1905
+
+
+
+ Score = 24.3 bits (12), Expect = 7.1
+ Identities = 12/12 (100%)
+ Strand = Plus / Minus
+
+                        
+Query: 2801 cgagcgtatcca 2812
+            ||||||||||||
+Sbjct: 2035 cgagcgtatcca 2024
+
+
+BLASTN 2.2.21 [Jun-14-2009]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+  Database: dna.fna
+    Posted date:  Apr 21, 2010 10:13 AM
+  Number of letters in database: 2190
+  Number of sequences in database:  1
+  
+Lambda     K      H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda     K      H
+    1.37    0.711     1.31 
+
+
+Matrix: blastn matrix:1 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 1
+Number of Hits to DB: 6192
+Number of extensions: 709
+Number of successful extensions: 709
+Number of sequences better than 10.0: 30
+Number of HSP's gapped: 709
+Number of HSP's successfully gapped: 709
+Length of query: 16085
+Length of database: 2190
+Length adjustment: 13
+Effective length of query: 16072
+Effective length of database: 2177
+Effective search space: 34988744
+Effective search space used: 34988744
+X1: 11 (21.8 bits)
+X2: 15 (29.7 bits)
+X3: 50 (99.1 bits)
+S1: 11 (22.3 bits)
+S2: 11 (22.3 bits)

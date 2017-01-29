@@ -1,0 +1,56 @@
+CLUSTAL W (1.83) multiple sequence alignment
+
+
+gbem_26sep06_GbemDRAFT_0745         MQKLKVALVQQALRPDREKMVAATSAQIREAAAQGAKLVLLQELHTGSYF
+gm|827744|gene628                   MHNLKVALVQQALRPDREKMIAATSASIREAAAKGAKLVLLQELHTGGYF
+gura_28feb07_Gura_1446              MKNLTVGLVQQSCTADRNATIEKSMAGIRTAAAKGTELVVLQELHCGPYF
+gmet_13jul05_Gmet_0710              MSKLTVGLVQQSCTSDKDLNLAKSIENIRKASALGAKLVVLQELHCGPYF
+gsu_GSU1027                         MSKLSVALVQQSCTADKDLNLAKSIENIRKASVLGAKLVVLQELHTGPYF
+geob_sz_10aug06_GlovDRAFT_0900      --------------------------------------------------
+gm|830250|gene4                     --------------------------------------------------
+                                                                                      
+
+gbem_26sep06_GbemDRAFT_0745         CQTEDTACFDLAESIPGPSTDHFGALARELGVVIVTSLFEKRAPGLYHNT
+gm|827744|gene628                   CQTEDTARFDLAESIPGPSTDHFGALARELSVVIVTSLFEKRAPGLYHNT
+gura_28feb07_Gura_1446              CQTEDTSCFDRAEPIPGPATEQFGALARELGVVIVTSLFERRAPGLYHNT
+gmet_13jul05_Gmet_0710              CQNEDTGHFDLAEEIPGPTTELLGGVAREFGVVLVSSLFEKRASGIYHNT
+gsu_GSU1027                         CQNEDTAHFDLAEPIPGPTTELLGGVAKEFGVVLVSSLFERRAPGLYHNT
+geob_sz_10aug06_GlovDRAFT_0900      --------------------------------------------------
+gm|830250|gene4                     --------------------------------------------------
+                                                                                      
+
+gbem_26sep06_GbemDRAFT_0745         AVVIEKDGSIAGKYRKMHIPDDPAFYEKFYFTPGDLGFEPVQTSVGKLGV
+gm|827744|gene628                   AVVIEKDGSIAGKYRKMHIPDDPAFYEKFYFTPGDLGFEPVQTSVGKLGV
+gura_28feb07_Gura_1446              AVVLEKDGSIAGKYRKMHIPDDPAFYEKFYFTPGDLGFEPIQTSVGKLGV
+gmet_13jul05_Gmet_0710              AVVFEKDGSIAGKYRKMHIPDDPGYYEKFYFTPGDLGFEPIRTSVGKLGV
+gsu_GSU1027                         AVVFEKDGSMAGTYRKMHIPDDPGYYEKFYFTPGDLGFEPIRTSVGKLGV
+geob_sz_10aug06_GlovDRAFT_0900      -VVFEQDGSIAGIYRKMHIPDDPGFYEKFYFTPGDLGFTPIRTSVGTLGV
+gm|830250|gene4                     -PGAAGHETPVGLYRVDAR--DRQHTSSLYQTEDGS--------------
+                                          . : .* **      *  . ..:* * ..               
+
+gbem_26sep06_GbemDRAFT_0745         LVCWDQWYPEAARLMALAGADLLIYPTAIGWDPRDEEAEQQRQLDAWVTI
+gm|827744|gene628                   LVCWDQWYPEAARLMALAGADLLIYPTAIGWDPRDEEAEQQRQLDAWVTI
+gura_28feb07_Gura_1446              LVCWDQWYPEAARLLALAGAELLIYPTAIGWDPNDTDAEKKRQLDAWITI
+gmet_13jul05_Gmet_0710              LVCWDQWYPEAARLMALAGADLLIYPTAIGWDPRDEDEEKVRQKEAWITI
+gsu_GSU1027                         LVCWDQWYPEAARLMALAGADLLIYPTAIGWDPRDDDDEKIRQKEAWITI
+geob_sz_10aug06_GlovDRAFT_0900      LVCWDQWYPEAARLMSLAGADLLIYPTAIGWDPADTPEEQERQREAWITV
+gm|830250|gene4                     -----AQYPMDNAMRFHIGPDNVAYWIHARDLPGKPASHGCVGLFDEGMQ
+                                           **    :    *.: : *       * .   .           
+
+gbem_26sep06_GbemDRAFT_0745         QRSHAVANGIPVVSVNRVGFEEDPSGAGAGIKFWGSSFAAGPQGELLARG
+gm|827744|gene628                   QRSHAVANGIPVVSVNRVGFEDDPSGAGAGIKFWGSSFAAGPQGELLARG
+gura_28feb07_Gura_1446              QRSHAVANGIPLVSVNRVGFEADPSGAGAGIDFWGNSFVAGPQGEFLSEG
+gmet_13jul05_Gmet_0710              QRGHAVANGIPVVSVNRVGLEPDPSGVLPGSLFWGSSFVAGPQGEILTQA
+gsu_GSU1027                         QRGHAVANGIPVVSVNRVGHESDPSGVLPGSQFWGSSFVAGPQGEILAQA
+geob_sz_10aug06_GlovDRAFT_0900      QRGHAVANGLPVLSVNRVGFEKSPDPHATGIRFWGTSFIAGPQGELLCKG
+gm|830250|gene4                     NRVYGIPEKPVLMDSHKFYAWAVGENEYEGDSGHLEELEDGPAVEVRGVN
+                                    :* :.:.:   ::. ::.      .    *      .:  **  *.    
+
+gbem_26sep06_GbemDRAFT_0745         GEEEE---------------------------------------
+gm|827744|gene628                   GEEEE---------------------------------------
+gura_28feb07_Gura_1446              SNGRE---------------------------------------
+gmet_13jul05_Gmet_0710              SNDRE---------------------------------------
+gsu_GSU1027                         SNDGE---------------------------------------
+geob_sz_10aug06_GlovDRAFT_0900      STEQEEILAVELDLERSEAVRRIWPFLRDRRIEAYGDLTRRFRD
+gm|830250|gene4                     PVYRK---------------------------------------
+                                        :                                       
