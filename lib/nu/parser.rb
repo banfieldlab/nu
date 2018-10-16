@@ -5,14 +5,14 @@ module Nu
     require_relative 'parser/fasta'
     require_relative 'parser/fasta_index'
     require_relative 'parser/fasta_header_index'
-    #require_relative 'parser/fastq'
-    #require_relative 'parser/gff'
-    #require_relative 'parser/genbank'
+    require_relative 'parser/fastq'
+    require_relative 'parser/gff'
+    require_relative 'parser/genbank'
     #require_relative 'parser/iprscan_file'
     #require_relative 'parser/kegg_ontology_index'
     #require_relative 'parser/sam'
     #require_relative 'parser/pilercr'
-    #require_relative 'parser/prodigal'
+    require_relative 'parser/prodigal'
 
     # Remove quotes from a string
     #
