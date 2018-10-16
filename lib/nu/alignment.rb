@@ -35,7 +35,7 @@ module Nu
         @sequences.each do |name, seq|
           if range.class == Range
             matrix.push(seq[range].split(//))
-          elsif range.class == Fixnum
+          elsif range.class == Integer
             matrix.push(seq[range])
           else
             matrix.push(seq.split(//))
@@ -46,7 +46,7 @@ module Nu
           if range.class == Range
             # correct for 0 indexed arrays
             matrix.push(@sequences[name][(range.begin - 1..range.end - 1)].split(//))
-          elsif range.class == Fixnum
+          elsif range.class == Integer
             matrix.push(@sequences[name][range - 1].chr)
           else
             matrix.push(@sequences[name].split(//))
@@ -69,7 +69,7 @@ module Nu
         unless block_given?
           positions
         end
-      elsif range.class == Fixnum
+      elsif range.class == Integer
         position = []
         matrix.each do |seq|
           position.push(seq)
