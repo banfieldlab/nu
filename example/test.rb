@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift File.expand_path(File.dirname(__FILE__) + '/..')
 $LOAD_PATH.unshift File.expand_path(File.dirname(__FILE__) + '/../lib')
-require 'nu'
+require 'mgnu'
 require 'fileutils'
 require 'benchmark'
 
@@ -9,20 +9,20 @@ DB="uniref90_010913.fasta"
 # CREATE
 #db = nil
 #puts Benchmark.measure {
-#  db = Nu::Parser::FastaHeaderIndex2.new(DB)
+#  db = MgNu::Parser::FastaHeaderIndex2.new(DB)
 #}
 #db.close
 #db = nil
 #puts Benchmark.measure {
-#  db = Nu::Parser::FastaHeaderIndex.new(DB)
+#  db = MgNu::Parser::FastaHeaderIndex.new(DB)
 #}
 #db.close
 #$stderr.puts 'done creating db'
 #__END__
 
 # ACCESS
-#db = Nu::Parser::FastaHeaderIndex.new(DB)
-db = Nu::Parser::FastaHeaderIndex2.new(DB)
+#db = MgNu::Parser::FastaHeaderIndex.new(DB)
+db = MgNu::Parser::FastaHeaderIndex2.new(DB)
 $stderr.puts 'done opening db'
 
 names = []

@@ -1,13 +1,13 @@
 <<<<<<< HEAD
-# nu
-New NuBio, but faster, smaller, and less dependent
+# mgnu
+Metagenomi Nu, a faster, small bioinformatics support library
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'nu'
+gem 'mgnu'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install nu
+    $ gem install mgnu
 
 ## Usage
 
@@ -24,7 +24,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/nu/fork )
+1. Fork it ( https://github.com/[my-github-username]/mgnu/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

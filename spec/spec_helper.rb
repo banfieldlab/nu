@@ -2,11 +2,11 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'rspec'
 require 'timecop'
 
-require 'nu'
+require 'mgnu'
 
 # set up configure for RSpec
 RSpec.configure do |config|
-  # config.before { Nu::XXXXXX.reset_configuration }
+  # config.before { MgNu::XXXXXX.reset_configuration }
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end

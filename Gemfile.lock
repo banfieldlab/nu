@@ -1,14 +1,14 @@
 PATH
   remote: .
   specs:
-    nu (2.0.1)
-      memoizable
-      moneta
-      naught
-      ox
-      rake
-      tokyocabinet
-      yard
+    mgnu (2.1.0)
+      memoizable (~> 0)
+      moneta (~> 0)
+      naught (~> 0)
+      ox (>= 2.8.2)
+      rake (>= 12)
+      tokyocabinet (>= 1)
+      yard (>= 0.9.11)
 
 GEM
   remote: https://rubygems.org/
@@ -23,8 +23,8 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
-    moneta (1.0.0)
-    naught (1.1.0)
+    moneta (0.8.1)
+    naught (0.0.3)
     ox (2.10.0)
     parallel (1.12.1)
     parser (2.5.1.2)
@@ -72,10 +72,10 @@ PLATFORMS
 
 DEPENDENCIES
   memoizable
+  mgnu!
   mime-types
   moneta
   naught
-  nu!
   ox
   rake
   rspec
