@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # mgnu
-Metagenomi Nu, a faster, small bioinformatics support library
+Metagenomi Nu, a fast and small bioinformatics support library
 
 ## Installation
 
